@@ -1,16 +1,22 @@
-# React + Vite
+# AgroTrade
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AgroTrade is a simple web application designed to help farmers, traders, and buyers connect for agricultural product trading.  
+It provides an easy and accessible platform where users can list crops, browse available products, and interact for trade.
 
-Currently, two official plugins are available:
+## Features
+- Add and view crop/product details
+- Simple and clean user interface
+- Basic backend support
+- Helps farmers and buyers connect easily
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Used
+- React (Vite)
+- TailwindCSS
+- Node.js (Backend)
 
-## React Compiler
+## Purpose
+To provide a convenient system where farmers and buyers can upload crops online, and traders can place bids.  
+The goal is to reduce the gap between producers and buyers through a simple marketplace-style platform.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Status
+Work in progress — more features will be added.
