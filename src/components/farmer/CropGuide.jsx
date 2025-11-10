@@ -43,7 +43,7 @@ const CropGuide = () => {
       
       Provide a JSON response with: bestTime (string), challenges (array), opportunities (array), climateNotes (string), soilTips (array)`;
 
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyBHaoSKwrEQib8pCmgcp3Bv3A7dtZfkt78`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${import.meta.env.VITE_GEMINI_API_KEY}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
